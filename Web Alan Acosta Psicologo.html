@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alan Acosta Zúñiga - Psicólogo Clínico</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9f9fb;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        header {
+            position: fixed;
+            width: 100%;
+            background: linear-gradient(90deg, #4b0082, #1e3c72);
+            color: white;
+            padding: 15px 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #9b59b6;
+        }
+        main {
+            max-width: 900px;
+            margin: 100px auto 50px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 60px;
+        }
+        h2 {
+            color: #4b0082;
+            border-bottom: 2px solid #9b59b6;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+        p, ul, table {
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background: #4b0082;
+            color: white;
+        }
+        .btn-whatsapp {
+            display: inline-block;
+            background: #25d366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background 0.3s ease;
+        }
+        .btn-whatsapp:hover {
+            background: #1ebe57;
+        }
+        .location iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .social-icons a {
+            color: #4b0082;
+            margin-right: 15px;
+            font-size: 24px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #9b59b6;
+        }
+        .faq dt {
+            font-weight: 600;
+            margin-top: 15px;
+            cursor: pointer;
+            color: #4b0082;
+        }
+        .faq dd {
+            margin-left: 20px;
+            margin-bottom: 10px;
+            display: none;
+        }
+        .faq dd.active {
+            display: block;
+        }
+        blockquote {
+            font-style: italic;
+            border-left: 4px solid #9b59b6;
+            margin: 20px 0;
+            padding-left: 15px;
+            color: #555;
+        }
+        footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            nav a {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <header>
+    <div style="display: flex; align-items: center; gap: 15px;">
+        <img src="Logo AAZ psicologo.jpg" alt="Logo Alan Acosta Zúñiga" style="height: 50px; width: auto; border-radius: 8px;" />
+        <h1>Alan Acosta Zúñiga</h1>
+    </div>
+    <nav>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#destinatarios">¿A quién va dirigida?</a>
+            <a href="#ubicacion">Ubicación</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#faq">FAQ</a>
+            <a href="#testimonios">Testimonios</a>
+            <a href="#blog">Blog</a>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre-mi">
+            <h2>🧠 Sobre mí y mi experiencia</h2>
+            <p>Alan Acosta Zúñiga es Licenciado en Psicología por la Universidad Autónoma de Baja California (UABC), con título y cédula profesional número 14725890. Actualmente cursa una Maestría en Psicoterapia Psicoanalítica en la Universidad Humanitas.</p>
+            <p>Tiene experiencia en la atención clínica de pacientes tanto en modalidad individual como grupal. Ha trabajado especialmente con casos de:</p>
+            <ul>
+                <li>Consumo de sustancias y adicciones</li>
+                <li>Psicosis y síntomas delirantes</li>
+                <li>Problemas afectivos</li>
+                <li>Trastornos alimenticios</li>
+                <li>Estudiantes de psicología que requieren terapia como parte de su formación académica</li>
+            </ul>
+            <p>Además, ofrece un espacio terapéutico seguro y libre de juicios para personas LGBT+, en especial hombres homosexuales.</p>
+            <p>Su práctica está en constante supervisión y formación, lo que garantiza una atención ética, seria y comprometida con el bienestar psíquico de cada paciente.</p>
+            <h3>Enfoque terapéutico</h3>
+            <p>Psicoterapia psicoanalítica centrada en la escucha profunda, el trabajo con el inconsciente y la historia subjetiva de cada paciente. No se trata de consejos ni soluciones rápidas, sino de un acompañamiento en procesos de transformación personal a través del lenguaje y la reflexión.</p>
+        </section>
+        <section id="servicios">
+            <h2>💼 Servicios que ofrezco</h2>
+            <ul>
+                <li>Terapia individual (presencial y en línea)</li>
+                <li>Psicoterapia psicoanalítica</li>
+                <li>Atención a adultos</li>
+                <li>Intervención clínica en:</li>
+                <ul>
+                    <li>Adicciones</li>
+                    <li>Psicosis y delirios</li>
+                    <li>Problemas afectivos o emocionales</li>
+                    <li>Procesos personales profundos</li>
+                    <li>Terapia para estudiantes de psicología</li>
+                </ul>
+            </ul>
+            <h3>Modalidad</h3>
+            <p>Presencial en Tijuana, Baja California</p>
+            <p>En línea vía Zoom o Google Meet</p>
+            <h3>Precios</h3>
+            <table>
+                <thead>
+                    <tr><th>Servicio</th><th>Precio</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Precio general por sesión</td><td>$500 MXN</td></tr>
+                    <tr><td>Precio especial para estudiantes de psicología</td><td>$400 MXN</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="destinatarios">
+            <h2>👥 ¿A quién va dirigida esta terapia?</h2>
+            <ul>
+                <li>Adultos que buscan un espacio de escucha, comprensión y transformación</li>
+                <li>Estudiantes de psicología en formación</li>
+                <li>Personas con síntomas psicóticos o delirantes</li>
+                <li>Miembros de la comunidad LGBT+ que buscan un espacio seguro y sin juicios</li>
+                <li>Personas que ya han estado en terapia y desean profundizar más en su proceso</li>
+            </ul>
+            <p><strong>No se atienden:</strong> menores de edad, parejas, casos centrados exclusivamente en duelos o rupturas sentimentales.</p>
+        </section>
+        <section id="ubicacion" class="location">
+            <h2>📍 Ubicación y horarios</h2>
+            <p>Ubicación del consultorio:</p>
+            <p><a href="https://goo.gl/maps/your-google-maps-link" target="_blank" rel="noopener">Avenida Ermita Norte #4202, Local 6, Plaza Pueblo Amigo, Fracc. Camino Verde, Tijuana, Baja California.</a></p>
+            <h3>Horarios de atención</h3>
+            <h4>Presencial:</h4>
+            <ul>
+                <li>Lunes, martes y viernes: 10:00 a.m. a 7:00 p.m.</li>
+                <li>Jueves: 10:00 a.m. a 4:00 p.m.</li>
+                <li>Sábado: 9:00 a.m., 10:00 a.m. y 1:00 p.m.</li>
+            </ul>
+            <h4>En línea:</h4>
+            <ul>
+                <li>Lunes, martes y viernes: después de las 8:00 p.m.</li>
+                <li>Miércoles (excepto a las 3:00 p.m.)</li>
+                <li>Sábados: después de las 2:00 p.m.</li>
+                <li>Domingos: todo el día</li>
+            </ul>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.1234567890123!2d-117.038247684692!3d32.533607986885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d948f123456789%3A0x123456789abcdef!2sPlaza%20Pueblo%20Amigo!5e0!3m2!1ses!2smx!4v1689000000000!5m2!1ses!2smx" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        $1
+            <a href="https://wa.me/526647943991" target="_blank" rel="noopener" class="btn-whatsapp" style="font-size: 1.2rem; display: block; width: fit-content; margin-top: 20px;">Contáctame por WhatsApp</a>
+            <h2>📞 Contacto y redes sociales</h2>
+            <p>WhatsApp: <a href="https://wa.me/526647943991" target="_blank" rel="noopener">664 794 3991</a></p>
+            <p>Correo: <a href="mailto:psico.alan.az@gmail.com">psico.alan.az@gmail.com</a></p>
+            <div class="social-icons">
+                <a href="https://www.tiktok.com/@psic.alan.acosta.z" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://instagram.com/psic.alan.acosta.z" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com/alan.acosta.z" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+            <h3>Formulario de contacto</h3>
+            <form action="mailto:psico.alan.az@gmail.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre completo:</label><br />
+                <input type="text" id="nombre" name="nombre" required /><br />
+                <label for="motivo">Motivo de consulta:</label><br />
+                <textarea id="motivo" name="motivo" rows="3" required></textarea><br />
+                <label for="medio">Medio de contacto preferido:</label><br />
+                <select id="medio" name="medio" required>
+                    <option value="whatsapp">WhatsApp</option>
+                    <option value="correo">Correo electrónico</option>
+                    <option value="llamada">Llamada telefónica</option>
+                </select><br />
+                <label for="disponibilidad">Disponibilidad horaria:</label><br />
+                <input type="text" id="disponibilidad" name="disponibilidad" required /><br />
+                <label for="mensaje">Mensaje adicional:</label><br />
+                <textarea id="mensaje" name="mensaje" rows="3"></textarea><br />
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section id="faq" class="faq">
+            <h2>❓ Preguntas frecuentes (FAQ)</h2>
+            <dl>
+                <dt>¿Cuánto dura una sesión?</dt>
+                <dd>Aproximadamente 50 minutos.</dd>
+                <dt>¿La terapia es confidencial?</dt>
+                <dd>Sí. Todo lo que se habla en sesión es confidencial y se maneja con ética profesional.</dd>
+                <dt>¿Debo tener experiencia previa en terapia?</dt>
+                <dd>No, cualquier persona puede comenzar desde cero. Se te explicará el proceso desde la primera sesión.</dd>
+                <dt>¿Qué pasa si no puedo asistir a una sesión?</dt>
+                <dd>Puedes cancelar o reagendar con al menos 24 horas de anticipación. Cancelaciones fuera de tiempo no se reembolsan.</dd>
+                <dt>¿Qué necesito para sesiones en línea?</dt>
+                <dd>Buena conexión a internet, un espacio privado y acceso a Zoom o Google Meet.</dd>
+            </dl>
+        </section>
+        <section id="testimonios">
+            <h2>💬 Testimonios anónimos</h2>
+            <blockquote>"Nunca había encontrado un espacio donde pudiera hablar libremente sin sentirme juzgado. La terapia con Alan me ha dado herramientas para entender cosas de mí que ni siquiera sabía que cargaba."</blockquote>
+            <blockquote>"Llevo años batallando con pensamientos que no podía compartir con nadie. Desde que comencé mi proceso con él, siento que mi mente está más clara."</blockquote>
+            <blockquote>"Me sentí comprendido desde la primera sesión. Lo recomiendo a quien busque una terapia profunda, no superficial."</blockquote>
+            <blockquote>"Como estudiante de psicología necesitaba tomar terapia, pero terminé encontrando mucho más que solo cumplir con un requisito académico. Gracias por tu acompañamiento, Alan."</blockquote>
+        </section>
+        $1
+        <section id="agenda">
+          <h2>📅 Agenda tu cita</h2>
+          <p>Consulta mi disponibilidad y agenda tu sesión directamente en mi calendario.</p>
+          <a href="https://calendar.app.google/GCwYu3AqfUqo2C3T6" target="_blank" rel="noopener" class="btn-whatsapp" style="background:#4b0082; color:white; padding: 12px 25px; border-radius: 25px; font-weight: bold; text-decoration: none;">Agendar cita</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Alan Acosta Zúñiga - Psicólogo Clínico. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        // Script para FAQ interactivo
+        document.querySelectorAll('.faq dt').forEach(dt => {
+            dt.addEventListener('click', () => {
+                const dd = dt.nextElementSibling;
+                dd.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
